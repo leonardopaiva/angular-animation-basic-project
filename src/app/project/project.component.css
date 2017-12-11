@@ -1,0 +1,25 @@
+:host {
+  display:block;
+  border-radius: 3px;
+  margin: 20px 0;
+  /* padding:20px; */
+  box-shadow: 3px 3px 2px #ccc;
+  /* transition: border-color 0.5s ease-out; */
+}
+/* 
+:host(.marked) {
+  padding: 19px;
+} */
+
+:host(.inactive) {
+  color: #ccc;
+}
+
+.form-control {
+  display: inline-block;
+  width: 50%;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
