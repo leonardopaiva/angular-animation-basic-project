@@ -1,3 +1,7 @@
+# About
+
+This is the project from angular styling & animations maximilian schwarzmuller udemy course, with some modifications. You will find here alot of animations and examples.
+
 # BasicProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
