@@ -11,6 +11,7 @@ import { ProjectsService } from './projects/projects.service';
 import { NewProjectComponent } from './new-project/new-project.component';
 import { UsersComponent } from './users/users.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoopDemoComponent } from './loop-demo/loop-demo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
     ProjectsComponent,
     ProjectComponent,
     NewProjectComponent,
-    UsersComponent
+    UsersComponent,
+    LoopDemoComponent
   ],
   imports: [
     BrowserModule,
