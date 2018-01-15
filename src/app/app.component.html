@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="nav nav-pills">
+        <li role="presentation" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Projects</a></li>
+        <li role="presentation" routerLinkActive="active"><a routerLink="/users">Users</a></li>
+        <li role="presentation" routerLinkActive="active"><a routerLink="/loop-demo">Loop Demo</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row" style="overflow: hidden">
+    <div class="col-xs-12" [@routeState]="getAnimationData(routlet)">
+      <router-outlet #routlet="outlet"></router-outlet>
+    </div>
+  </div>
+</div>

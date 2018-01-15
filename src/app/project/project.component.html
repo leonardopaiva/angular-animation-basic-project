@@ -1,0 +1,17 @@
+<h3>
+  {{ project.name }}
+  <!-- Show different usages of ngClass and ngStyle"-->
+  <span
+    [@statusChange]="{value: statusState, params: { startOpacity: 0.1, endOpacity: 1 }}"
+    class="label display-inline-block"
+    [ngClass]="getPrjStatusClass()">{{ project.status }}</span>
+</h3>
+<hr>
+<p>{{ project.description }}</p>
+<select #prjStatus class="form-control">
+  <option value="active" [selected]="project.status === 'active'">Active</option>
+  <option value="inactive" [selected]="project.status === 'inactive'">Inactive</option>
+  <option value="critical" [selected]="project.status === 'critical'">Critical</option>
+</select>
+<button class="btn btn-primary" (click)="onUpdateStatus(prjStatus.value)">Update Status</button>
+<button class="btn btn-danger" (click)="onDelete()">Delete Project</button>

@@ -1,0 +1,19 @@
+/* defaults */
+.btn {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.wrap-block-animation {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.element-block-animated {
+  width: 25%;
+  height: 50%;
+  background: #900;
+  position: absolute;
+  /* transform: translate3d(300%, 100%, 0); */
+}

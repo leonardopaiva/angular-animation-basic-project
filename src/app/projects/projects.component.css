@@ -1,0 +1,50 @@
+:host {
+  display: block;
+}
+
+.inactive {
+  border: 1px solid #ccc;
+}
+
+.marked {
+  border: 2px solid blue;
+  animation: marked 0.5s ease-out forwards;
+}
+
+@keyframes marked {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.loading-bar {
+  width: 200px;
+  height:20px;
+  border:1px solid black;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.loading-bar-element {
+  width: 0;
+  height:20px;
+  background-color: deepskyblue;
+  animation: loading 1s ease-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width:100%;
+  }
+}
