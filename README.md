@@ -2,6 +2,20 @@
 
 This is the project from angular styling & animations maximilian schwarzmuller udemy course, with some modifications. You will find here alot of animations and examples.
 
+# Project Demo
+
+https://angular-animations-demo.firebaseapp.com/
+
+
+# Some Worked Examples
+
+- angular animation loop demo using triggers
+- angular animation using query
+- angular animation using parameters
+- angular animation using group
+- angular animation changing route
+- angular animation stagger
+
 # BasicProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
