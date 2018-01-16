@@ -2,6 +2,8 @@
 
 This is the project from angular styling & animations maximilian schwarzmuller udemy course, with some modifications. You will find here alot of animations and examples.
 
+The objective is to demonstrate the most possible angular animations resources.
+
 # Project Demo
 
 https://angular-animations-demo.firebaseapp.com/
